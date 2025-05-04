@@ -1,0 +1,21 @@
+# Ignorar archivos de compilación Python
+*.pyc
+__pycache__/
+
+# Ignorar directorios de entornos virtuales
+.venv/
+venv/
+env/
+.direnv/
+
+# Ignorar archivos específicos del sistema operativo
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# Ignorar archivos de configuración de editores comunes
+.vscode/
+.idea/
+
+# Si usas algún otro archivo temporal o de log que no quieras commitear, añádelo aquí
+# ejemplo:
+# *.log
